@@ -1,0 +1,101 @@
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: fill
+    storyboard: true
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+
+Page 1
+=====================================  
+Row {data_height=250}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+
+```
+
+
+
+
+Row {data_height=850}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+
+### Chart C
+
+```{r}
+
+```
+
+
+Page 2 {data-orientation=rows}
+===================================== 
+
+Row {.tabset .tabset-fade}
+-----------------------------------------------------------------------
+
+### Chart D
+
+```{r}
+
+```
+
+### Chart E
+
+```{r}
+
+```
+
+Page 3 
+===================================== 
+Row {.tabset .tabset-fade}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+
+```
+---
+
+The chart illustrates the top ten suburbs in Sydney with the highest number of Airbnb listings. 
+
+1. Sydney (CBD): Unsurprisingly, the city center (CBD) tops the list with the largest number of Airbnb listings. This is expected due to its iconic landmarks, such as the Opera House and the Harbour Bridge, which attract significant tourist traffic. Additionally, Sydney's central location and excellent public transportation make it a convenient base for visitors to explore other parts of the city. 
+
+2. Waverley, Randwick, and Manly: These suburbs rank second, third, and fourth respectively in the number of listings. They are closed to Sydney’s famous beaches—Bondi (Waverley), Coogee (Randwick), and Manly — makes them highly sought after by travelers. These areas offer not only scenic coastal views but also vibrant local services, increasing their appeal as short-term rental hotspots.
+
+3. Warringah: This suburb stands out for its close location to a national park, attracting nature enthusiasts and outdoor adventurers. The unique combination of natural beauty and recreational opportunities contributes to its popularity among Airbnb hosts.
+
+Suburbs near major tourist attractions, scenic coastal areas, or natural landmarks tend to attract more Airbnb listings due to their high demand among travelers. For property managers and hosts, investing in properties in these strategic locations can maximize occupancy rates and profitability.
+
+### Chart B
+
+```{r}
+
+```
+
+---
+
+The map highlights the average Airbnb prices in each suburb, revealing notable patterns and trends:
+
+1. Suburbs with a high number of Airbnb listings often do not have the highest average prices. The increased competition in these areas typically results in more pricing flexibility and a broader range of options for travelers. For hosts and property managers, this means standing out in these competitive markets requires strategic pricing and offering unique features or value-added services to attract bookings.
+
+2. Coastal Suburbs: Suburbs near the beaches, such as Palm Beach and Watsons Bay, generally have higher average prices. These suburbs are popular tourist destinations with their breathtaking scenic views and tranquil coastal lifestyle. Their desirability often allows hosts to charge premium rates, making these areas lucrative for short-term rental investments.
+
+3. Castlereagh and Kenthurst: These suburbs record the highest average Airbnb prices. However, it’s important to recognize that the number of listings in these areas is minimal. As a result, their averages are heavily influenced by a small number of high-end properties, which may skew the data. For hosts and property managers, this highlights the importance of considering the volume of listings alongside pricing trends when evaluating investment opportunities.
+
